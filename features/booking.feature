@@ -15,17 +15,17 @@ Feature: RAW Booking
     And I choose option "2" from "DropDownList_People" dropdown (name)
     And I cannot see loading div
     And I wait until "12" hour "00" min "00" sec
-    And I write "04-10" in "TextBox_Date"
+    And I write "07-10" in "TextBox_Date"
     And I click "Label_RTitle"
     And I cannot see loading div
-    And I write "李玄" in "TextBox_FName"
-    And I write "boczeratul@gmail.com" in "TextBox_Email"
-    And I write "0939686300" in "TextBox_PNumber"
+    And I write "Sean Lo" in "TextBox_FName"
+    And I write "tzuhsiang.lo@gmail.com" in "TextBox_Email"
+    And I write "0237252924" in "TextBox_PNumber"
     And I turn into manual
     And I wait for "2" seconds
-    And I write "李玄" in "TextBox_PName"
-    And I write "0939686300" in "TextBox_PTel"
-    And I write "boczeratul@gmail.com" in "TextBox_PEMail"
+    And I write "Sean Lo" in "TextBox_PName"
+    And I write "0237252924" in "TextBox_PTel"
+    And I write "tzuhsiang.lo@gmail.com" in "TextBox_PEMail"
     And I choose option "Card" from "DropDownList_Payment" dropdown (name)
     And I click "1" for "RadioButtonList_InvoiceType" radio
     And I click "LinkButton_Send"
